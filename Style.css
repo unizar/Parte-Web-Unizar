@@ -1,0 +1,236 @@
+﻿body   
+{
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+	background-image: url(images/MarcaAgua.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+		
+}
+.cabecera
+{
+    position: fixed;
+    width: 100%; 
+    height: 140px;
+	z-index:5;
+	background:white;
+}    
+
+
+/* estilo para el div del logo */
+.LogoContainer
+{
+    position: absolute;
+    height: 69px;
+    padding-top:1px;
+    padding-left:1px;
+}    
+
+
+/*Usuario Actual (estilo para el div)*/
+.UsuarioActual
+{
+    position : absolute;  
+    top:40px;
+    left:80%;
+	text-align: left;
+	color:#223D71;
+    font-weight:bold;
+}
+
+.cerrarSesion{
+	 position : absolute;  
+    top:10px;
+    left:80%;
+	text-align: left;
+	color:#223D71;
+    font-weight:bold;
+}
+
+/******Diseño parte Tipo Usuario**********************/
+
+.tipoUsuario
+{
+	color:white;
+	font-size:medium;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top:70px;
+    height:60px;
+    width: auto;
+	background-image: url('images/toolbar.jpg') ;
+	background-repeat: repeat-x;
+    background-color: #223D71;
+}
+    
+/**************************************************/
+
+/*Todos los enlaces*/
+a:hover 
+{
+   color:#f09013;
+   border-bottom-color:#f09013;
+   border-bottom-style:solid;
+}
+
+/*MAIN*/
+
+.Main
+{
+	position:absolute;
+	float:left;
+	margin-left:250px;
+	padding-top:140px;
+	padding-bottom:30px;
+    z-index:4;
+    /*top: 200px;
+    max-height: 72%; */
+	/* min-height: 100%; */
+    width:auto;
+    height: auto; 
+    background-color: transparent;
+	top:0px;
+	/* bottom:30px; */
+}
+
+.boton,button{
+	font-family:Georgia,"Times New Roman",Times,serif;
+	background:#b1c3e5;
+	font-weight:normal;
+	border-radius:30%;
+}
+
+.boton:hover{ /* cuando el raton está sobre el botón */
+	background:#7f71f6;
+}
+
+button:hover{ /* cuando el raton está sobre el botón */
+	background:#7f71f6;
+}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+/*Añade la línea de separación entre "modulos"*/
+.separador{border-top:1px dotted #ccc;}
+.separador2{border-top:3px dotted #ccc;}
+.separador3{border-right:1px dotted #ccc;}
+
+/*Cabeceras de tipo h1*/
+h1{
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-weight:normal;
+	font-size:24px;
+	color:#223D71;
+}
+
+h2{
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-style:italic;
+	font-weight:normal;
+	font-size:15px;
+	color:#223D71;
+}
+
+/*PIE DE PAGINA*/
+.Footer
+{
+	width:100%;   
+    background: #223D71;
+	/* background: transparent;  */
+    position: fixed;
+    bottom: 0px	;
+    height: 30px;
+    text-align:center;    
+    color:white;
+    font-weight:bold;
+	z-index:4;
+}
+
+#menu{
+	position:fixed;
+	padding-left:10px;
+	overflow-y:auto;
+	padding-bottom: 30px;
+	/* float: left; */
+	width: 200px;
+	/* height:auto; */
+	margin-top:140px;
+	border-right:dotted;
+	border-color:#dde4eb;
+	background:#223D71;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+	bottom:0px;
+	top:0px;
+}
+#menu h1{
+	color:#dde4eb;
+}
+#menu ul{
+	margin-right:10px;
+	list-style-type: circle;
+	color:#223D71;
+}
+#menu a{
+	font-weight:bold;
+	text-decoration: none;
+	color:#dde4eb;
+}
+#menu a:hover{
+	color:#f09013;
+	border-bottom-style:none;
+}
+
+#Principal{
+	float:left;
+}
+
+#divmostrarEncuesta
+{
+	float:right;
+	margin-left:50px;
+}
+
+.respuestas{
+	text-align:right;
+}
+
+.tabla{
+	/*orientación de la información centrada*/
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	/*Bordes*/
+	border-color:#223D71;
+	border:solid;
+	border-collapse: collapse;
+}
+
+.comentario{
+	color:red;
+	font-size:8pt;
+}
+.boton{
+
+}
+.cabecera_tabla{
+	text-align:center;
+	font-weight:bold;
+	color:#223D71;
+	background:#dde4eb;
+	
+}
+
+ul li {
+	padding-left: 12px;
+	background: url(images/bullet.png) 0em 0em no-repeat;
+	margin-bottom: 1em;
+}
